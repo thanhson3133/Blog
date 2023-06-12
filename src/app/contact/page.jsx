@@ -3,6 +3,12 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "<@>/components/button/Button";
+
+export const metadata = {
+  title: "Tson Dev Contact Information",
+  description: "This is contact page",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
